@@ -462,6 +462,11 @@ color: var(--white-color);
     justify-content: center;
     margin-bottom: 50px;
 }
+.filters .item:hover,
+.filters .item:focus{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
 .filters .item:not(:last-child){
     margin-right: 9px;
 }
