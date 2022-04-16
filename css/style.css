@@ -146,8 +146,7 @@ body{
     padding-top: 94px;
 }
 .hero{
-    background-image: url(../images/bg-img.jpg);
-    /* background-image: linear-gradient(to right, grey, grey); */
+    background-image:linear-gradient(to right, rgb(75 74 81 / 85%) 0%, rgb(57 51 70 / 85%) 100%), url(../images/bg-img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: grey;
@@ -181,7 +180,7 @@ body{
     border-radius: 4px;
     margin-bottom: 30px;
     width: 270px;
-    height: 160px;
+    height: 120px;
     background-color: var(--button-bc-);
 }
 .item .icon{
@@ -313,7 +312,7 @@ body{
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
-    border-radius: 2px;
+    border-radius: 4px;
     fill: #AFB1B8;
     /* margin-right: 30px; */
 }
@@ -448,6 +447,9 @@ color: var(--white-color);
     display: block;
     text-align: center;
   
+}
+.footer-social .title{
+    display: flex;
 }
 .social-icon:hover,
 .social-icon:focus{
