@@ -146,7 +146,9 @@ body{
     padding-top: 94px;
 }
 .hero{
-    background-image:linear-gradient(to right, rgb(75 74 81 / 85%) 0%, rgb(57 51 70 / 85%) 100%), url(../images/bg-img.jpg);
+    background-image:linear-gradient(to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)), url(../images/bg-img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: grey;
